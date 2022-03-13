@@ -1,0 +1,2 @@
+# SitioWeb_Paradise_VentaDeCasas
+Es un sitio web realizado en la Universidad en forma de proyecto, donde se tiene la posibilidad de tener una comunicación a una base de datos, y existe una intranet donde el administrador del sitio tiene la posibilidad de dar de alta, eliminar, modificar, actualizar y consultar todos los productos. Así como cuenta con un login para los usuarios donde se pueden registrar y acceder a sus cuentas.
