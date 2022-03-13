@@ -1,0 +1,356 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+
+body{
+    background: linear-gradient(to bottom, #6796DC, #4783DE, #1C73F6, #1667E1, #1256BD, #0D4190, #092B5F);
+}
+
+.fondo{
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid #fff;
+}
+
+.nav__ul{
+    display: inline-block;
+    margin-top: 2%;
+    margin-left: 3%;
+    list-style: none;
+}
+
+.nav__ul-li-inicio{
+    text-shadow: 2px 2px 21px white;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: #0A82D6;
+    border-radius: 20px;
+    border: 2px solid #092B5F;
+    font-family: 'Poppins', sans-serif;
+    padding: 9px;
+    color: #fff;
+    transition-property: color;
+    transition-duration: .5s;
+    cursor: pointer;
+}
+
+.nav__ul-li-inicio a{
+    color: #fff;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: .5s;
+}
+
+.nav__ul-li-inicio i{
+    width: 30px;
+    box-sizing: border-box;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.nav__ul-li-inicio:hover > a{
+    color: #ccc;
+}
+.nav__ul-li-inicio:hover{
+    color: #ccc;
+}
+
+.nav__ul-li{
+    display: inline-block;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+
+.nav__ul-li i{
+    width: 30px;
+    box-sizing: border-box;
+    text-align: right;
+    color: #ddd;
+    margin-right: 3px;
+    transition-property: color;
+    transition-duration: 1s;
+}
+
+.nav__ul-li a{
+    font-family: 'RocknRoll One', sans-serif;
+    padding: 8px;
+    text-decoration: none;
+    color: #ddd;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    transition-property: color, border-bottom;
+    transition-duration: 1s;
+}
+
+.nav__ul-li:hover{
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+.nav__ul-li:hover > a{
+    color: #fff;
+}
+
+.nav__ul2{
+    list-style: none;
+    display: inline-block;
+    text-align: right;
+}
+
+.nav__ul2-li{
+    padding: 10px;
+    display: inline-block;
+    text-align: right;
+}
+
+.nav__ul2-li a{
+    text-align: right;
+    text-decoration: none;
+}
+
+.nav__ul2-li a i{
+    text-align: right;
+    font-size: 23px;
+    color: #fff;
+    transition-property: color, transform;
+    transition-duration: .6s;
+}
+
+.nav__ul2-li a i:active{
+    transform: scale(.9);
+}
+
+.nav__ul2-li a i:hover{
+    color: #ccc;
+    border-radius: 50%;
+}
+
+#form-buscar{
+    display: inline-block;
+}
+
+.contenedor{
+    display: inline-block;
+    text-align: right;
+    margin-left: 50%;
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5px;
+}
+
+.buscar{
+    background-color: #08339B;
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: -10px;
+    color: #fff;
+    display: none;
+}
+
+.buscar::placeholder{
+    color: #ddd;
+}
+
+#btn-buscar:active{
+    transform: scale(.9);
+}
+
+#btn-buscar{
+    font-size: 18px;
+    background-color: #092B5F;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 80px;
+    height: 35px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+    transition-property: background-color, transform;
+    transition-duration: .5s;
+    display: none;
+}
+
+#btn-buscar:hover{
+    background-color: #0D4FB6;
+}
+
+.line{
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 85%;
+    height: 3px;
+    background-color: #fff;
+}
+
+.contenedorinicioregistro{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    background-color: #0A82D6;
+    padding: 20px;
+    margin: 30px;
+}
+
+.caja{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px
+}
+
+.caja img{
+    width: 250px;
+    height:250px;
+    border-radius: 10px
+}
+
+.caja input{
+    text-align: center;
+    background-color: #15399D;
+    width: 180px;
+    height: 30px;
+    margin: 2px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    transition: all .5s;
+}
+
+.caja input::placeholder{
+    color: #bbb;
+}
+
+.caja input:focus{
+    background-color: #0B2059;
+}
+
+.caja a{
+    text-decoration: none;
+    color: #000;
+}
+
+.caja a:hover{
+    color: #555;
+}
+
+.formlogin button{
+    width: 100px;
+    height: 25px;
+    background-color: blue;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.caja form button:hover{
+    background-color: #0045FF;
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.inffo{
+    margin-top: 60px;
+    width: 270px;
+    height: 210px;
+}
+
+.inffo p{
+    color: #fff;
+    text-align: left;
+    padding-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    cursor: default;
+}
+
+.iconos{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;    
+}
+
+.inffo a i{
+    margin: 10px 5px;
+    transition-property: color;
+    transition-duration: .5s;
+}
+
+.inffo a i:hover{
+    color: #ccc;
+}
+
+.titulo-paradise{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    color: #fff;
+    cursor: default;
+}
+
+.titulo-navegacion, .titulo-ubicacion{
+    font-size: 25px;
+    color: #fff;
+    cursor: default;
+}
+
+.ul__navegacion{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.ul__navegacion li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    transition-property: color;
+    transition-duration: .5s;
+}
+
+.ul__navegacion li a:hover{
+    color: #ccc;
+}
+
+.ul__ubicacion{
+    margin-top: 15px;
+    list-style: none;
+}
+
+.ul__ubicacion li{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    cursor: default;
+}
+
+.copy{
+    color: #fff;
+    font-size: 12px;
+    cursor: default;
+    margin-bottom: 20px;
+}
